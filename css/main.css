@@ -1,0 +1,178 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+
+}
+
+.box {
+    display: flex;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #7F7F7F;
+}
+
+.header__sideber {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7F7F7F;
+}
+
+.header__avatar {
+    padding-top: 30px;
+}
+
+.header__box {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 247px;
+    border-radius: 20px;
+}
+
+.header__pic {
+    margin-top: 20px;
+    display: block;
+    border: 1px solid #D1D1D1;
+}
+
+.header__inner {
+    width: 1440px;
+    height: 105px;
+    left: 0px;
+    top: 0px;
+    background: #F6F6F6;
+    padding-top: 30px;
+}
+
+.header__item+.header__item {
+    list-style: none;
+    padding-left: 55px;
+    margin-top: 10px;
+}
+
+.header__page {
+    display: flex;
+    margin-left: 25px;
+}
+
+.header__desc {
+    margin-left: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #0000ff;
+    background-color: #000fff;
+    margin-top: -10px;
+}
+
+/* cards section */
+.cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards__box {
+    width: 400px;
+}
+
+.cards__title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+
+}
+
+.cards__desc {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4B4C;
+    border-radius: 12px;
+}
+
+.cards__box {
+    border-radius: 12px;
+    background-color: #F6F6F6;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../img/Group351.png");
+    padding: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.info__link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 30px;
+    color: wheat;
+    font-weight: 400;
+    align-items: center;
+    background: #F78B3B;
+    border-radius: 10px;
+}
+
+.info__title {
+    width: 500px;
+}
+
+.widget__title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.widget__box{
+    display:flex;
+}
+.widget__title{
+    display: block;
+    width: 500px;
+}
+.widget__desc{
+    width: 700px;
+}
